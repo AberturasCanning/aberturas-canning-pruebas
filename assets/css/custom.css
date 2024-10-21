@@ -417,7 +417,7 @@ h2 {
 }
 
 .img {
-    background-image: url(/assets/img/about-us-banner-hombre.png);
+    background-image: url(/assets/img/about-us-banner-hombre.webp);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -560,6 +560,25 @@ aside>hr {
     height: 100%;
     border: none;
     /* Quitar bordes del iframe */
+}
+
+.alternative-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.5ms;
+}
+
+.alternative-text p {
+    background-color: #3e5976;
+    padding: 10px;
+    color: #f7f7f7;
+    border: 3px #c0d2e6 solid;
+}
+
+.alternative-text p:hover {
+    color: #edcd20;
+    transition: color 1s;
 }
 
 
