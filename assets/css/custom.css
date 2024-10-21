@@ -570,6 +570,7 @@ aside>hr {
 }
 
 .alternative-text p {
+    text-align: center;
     background-color: #3e5976;
     padding: 10px;
     color: #f7f7f7;
@@ -787,7 +788,7 @@ hr {
     font-size: 2em;
     font-weight: 100;
     line-height: 1.5em;
-    color: #3a3a3a;
+    color: #151515;
     display: flex;
 }
 
